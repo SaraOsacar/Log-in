@@ -1,9 +1,10 @@
 import '../styles/App.scss';
+import {Form} from './Form';
 
 function App() {
   return (
-    <div>
-      <h1>Hola mundo</h1>
+    <div className="App">
+     <Form />
     </div>
   );
 }
