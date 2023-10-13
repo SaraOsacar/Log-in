@@ -1,7 +1,7 @@
 import "../styles/Form.scss"; 
 import { useState } from "react";
 
-export function Form () {
+export function Form ({setUser}) {
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState(false);
@@ -14,6 +14,7 @@ export function Form () {
             return
         }
         setError(false)
+        setUser([name])
     }
 
 
