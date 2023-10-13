@@ -17,3 +17,12 @@
   gap: 1rem;
 }
 
+.errorMessage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        font-family: Helvetica;
+        font-size: 15px;
+}
