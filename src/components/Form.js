@@ -35,7 +35,7 @@ export function Form ({setUser}) {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button>Sign in</button>
+          <button className="button">Sign in</button>
         </form>
         {error && <p className="errorMessage">All fields are required</p>}
       </section>

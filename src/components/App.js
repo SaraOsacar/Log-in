@@ -13,7 +13,7 @@ function App() {
       {
          ! user.length > 0
         ? <Form setUser={setUser} />
-        :<Home user={user}/> 
+        :<Home user={user} setUser={setUser}/> 
       }
     
     </div>

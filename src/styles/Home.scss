@@ -1,19 +1,26 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
 .homeTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 150px;
   margin-bottom: 50px;
   font-size: 40px;
   font-family: Helvetica;
 }
 .userName {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
   font-size: 20px;
+  font-family: Helvetica;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: solid black 7px;
+  font-size: 40x;
   font-family: Helvetica;
 }
