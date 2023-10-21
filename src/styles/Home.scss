@@ -4,18 +4,23 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/277/710/large_2x/neon-signs-on-the-wall-neon-signs-and-brick-walls-text-frame-on-panel-free-photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .homeTitle {
   color: white;
   margin-top: 150px;
-  margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 45px;
   font-family: Helvetica;
+  text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 0.5);
+ 
 }
 .userName {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Helvetica;
 }
 .button {
