@@ -1,12 +1,14 @@
 .title {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 55px;
   font-family: Helvetica;
+  text-shadow: 2px 2px 4px rgba(1, 1, 1, 1);
 }
 
 .form {
@@ -18,19 +20,66 @@
 }
 
 .errorMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Helvetica;
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid rgb(245, 245, 22);
+  border-radius: 7px;
+  font-size: 17px;
+  font-family: Helvetica;
+  background-color: rgb(245, 245, 22);
+  cursor: pointer;
+  color: rgb(33, 32, 32);
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  transition: all 0.3s;
+}
+.button:hover {
+  transform: scale(1.05);
+  animation: blink 1s infinite;
+ 
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.input {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+}
+.input::placeholder {
+  text-align: center;
+}
+.container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
-        font-family: Helvetica;
-        font-size: 15px;
-}
-
-.button {
-    width: 100px;
-    height: 50px;
-    border-radius: solid black 7px;
-    font-size: 40x;
-    font-family: Helvetica;
+        min-height: 80vh;
 }

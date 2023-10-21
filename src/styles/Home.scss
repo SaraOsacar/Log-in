@@ -1,19 +1,20 @@
 .homeContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .homeTitle {
+  color: white;
   margin-top: 150px;
   margin-bottom: 50px;
   font-size: 40px;
   font-family: Helvetica;
 }
 .userName {
+  color: white;
   font-size: 20px;
   font-family: Helvetica;
 }
@@ -23,4 +24,5 @@
   border-radius: solid black 7px;
   font-size: 40x;
   font-family: Helvetica;
+  background-color: rgb(245, 245, 22);
 }
